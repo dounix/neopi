@@ -11,12 +11,15 @@ Mechanically rugged, but the original interface shows it's age(wasn't cutting ed
    *  RS232 - 9 pin serial(at 9600, or 38400)  
       This interface is supported by commercial applications/design spoolers, but the protocol is undocumented
 
-* Tajima NEO(TEJT-1501C) or equivalent(I believe Toyota ESP9000 is the same device)
+
+# What you need
+
+* Tajima NEO(TEJT-1501C) or equivalent(I believe Toyota ESP9000 is the same machine)
 * Raspberry Pi 3b with raspbian installed
 * Touch screen that works with pygame(X), tested with Kuman/Waveshare
-
 * Linux supported USB to (DB9) serial with support for hardware flow control + a null modem cable, tested with a prolific chipset
+* Access to a lasercutter and a bit of hardware if you want a case around it
 
-Erratic issues with the touchscreen when using tslib/SDL/pygame let me to use this in Xwindows(with no window manager)
+Erratic issues with the touchscreen when using tslib/SDL/pygame led me to use this in Xwindows(with no window manager)
 Tslib calibration worked perfectly, but pygame mouse positioning events let a lot to be desired
 
