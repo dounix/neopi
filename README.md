@@ -23,3 +23,5 @@ Mechanically rugged, but the original interface shows it's age(wasn't cutting ed
 Erratic issues with the touchscreen when using tslib/SDL/pygame led me to use this in Xwindows(with no window manager)
 Tslib calibration worked perfectly, but pygame mouse positioning events let a lot to be desired
 
+
+License: GNU GPLv2, portions derived or inspired by https://code.google.com/archive/p/pyembroidery/ (mirrored on https://github.com/OSUblake/pyembroidery ?)
