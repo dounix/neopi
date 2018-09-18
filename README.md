@@ -73,7 +73,9 @@ ts_calibrate
 ```
 
 ### clone/configure 
-clone this repo, edit neopi.cfg to suit   
+clone this repo  
+edit neopi.cfg to suit, minimum change the directory where designs are stored  
+copy/mount DST/dst files to the defined directory  
 start neopi.py  
 choose a file to send, it will show pending..  
 select input from PC on NEO control panel, it will be sent to the serial port
