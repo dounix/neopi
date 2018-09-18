@@ -67,10 +67,17 @@ export TSLIB_FBDEVICE=/dev/fb1
 ts_calibrate
 ```
 
-###Follow calibration prompts, this will update /etc/pointercal, **your values will vary**
+### Follow calibration prompts, this will update /etc/pointercal, **your values will vary**
 ```
 8478 111 -2023240 -40 -5537 22244074 65536
 ```
+
+### clone/configure 
+clone this repo, edit neopi.cfg to suit   
+start neopi.py  
+choose a file to send, it will show pending..  
+select input from PC on NEO control panel, it will be sent to the serial port
+
 
 # TODO
 ## Send designs to machine without control panel interaction.
