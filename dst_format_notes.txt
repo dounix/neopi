@@ -1,0 +1,37 @@
+## DST File format https://community.kde.org/Projects/Liberty/File_Formats/Tajima_Ternary
+
+b'LA:ka5             \rST:   1285\rCO:  0\r+X:  154\r-X:  154\r+Y:   89\r-Y:   88\rAX:+    0\rAY:+    0\rMX:+    0\rMY:+    0\rPD:******\r\x1a 
+1285 stitches 
+0(1) colors?
+15.4+15.4  30.8 horizontal size
+8.9 + 8.8 17.7 vertical size
+
+
+23 	Y += 1 add 0.1 mm to needle's Y current coordinate
+22 	Y -= 1 subtract 0.1 mm from the needle's current Y position
+21 	Y += 9
+20 	Y -= 9
+15 	Y += 3
+14 	Y -= 3
+13 	Y += 27
+12 	Y -= 27
+5 	Y += 81
+4 	Y -= 81, the end-of-pattern code sets both Y += 81 and Y -= 81 which cancel each other
+
+17 	X -= 1
+16 	X += 1
+9 	X -= 3
+8 	X += 3
+19 	X -= 9
+18 	X += 9
+11 	X -= 27
+10 	X += 27
+3 	X -= 81
+2 	X += 81
+
+7 	Jump stitch (not a normal stitch)
+6 	Stop for colour change or end of pattern
+5 	Y += 81
+4 	Y -= 81, the end-of-pattern code sets both Y += 81 and Y -= 81 which cancel each other
+1 	= 1 synchronization bit
+0 	= 1 synchronization bit, two LSB only set in byte 3
