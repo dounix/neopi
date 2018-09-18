@@ -3,7 +3,8 @@
 ### License: GNU GPLv2 
 Portions derived or inspired by https://code.google.com/archive/p/pyembroidery/ (mirrored on https://github.com/OSUblake/pyembroidery?)
 
-![Screenshot](https://i.imgur.com/pqBmuBV.gif) [more](https://imgur.com/a/9JRE5)
+![Screenshot](https://i.imgur.com/pqBmuBV.gif)  
+[more](https://imgur.com/a/9JRE5)
 
 ## This sends commands to a piece of machinery capable of causing injury, this works for me.  It's up to you to determine if it works for you.
 
