@@ -23,9 +23,21 @@ Mechanically rugged, but the original interface shows it's age(wasn't cutting ed
 Erratic issues with the touchscreen when using tslib/SDL/pygame led me to use this in Xwindows(with no window manager)
 Tslib calibration worked perfectly, but pygame mouse positioning events left a lot to be desired
 
-
 License: GNU GPLv2 
 Portions derived or inspired by https://code.google.com/archive/p/pyembroidery/ (mirrored on https://github.com/OSUblake/pyembroidery?)
+
+Screenshot https://i.imgur.com/pqBmuBV.gif
+Image gallery https://imgur.com/a/9JRE5
+
+## Files
+neopi_case.dxf - CAD file suitable for laser cutting a case from 1/8 plywood
+neopi.py - awfully written pygame interface for neo
+neopi.cfg - config file for changing serial ports, file locations, displays, etc
+samplefiles - simple samples to "test" the app
+
+
+
+
 
 # Future goals
 ## Send designs to machine without control panel interaction.
