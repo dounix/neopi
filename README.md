@@ -55,7 +55,7 @@ cd LCD-show
 chmod 755 LCD35-show ; ./LCD35-show
 ```
 
-# Edit the /boot/config update the overlay to rotate the display
+### Edit the /boot/config update the overlay to rotate the display
 dtoverlay=tft35a,rotate=270 
 
 ### Reboot
