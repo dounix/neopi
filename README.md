@@ -29,10 +29,10 @@ Tslib calibration worked perfectly, but pygame mouse positioning events left a l
 
 
 ## Files
-neopi_case.dxf - CAD file suitable for laser cutting a case from 1/8 plywood
-neopi.py - awfully written pygame interface for neo
-neopi.cfg - config file for changing serial ports, file locations, displays, etc
-samplefiles - simple samples to "test" the app
+neopi_case.dxf - CAD file suitable for laser cutting a case from 1/8 plywood  
+neopi.py - awfully written pygame interface for neo  
+neopi.cfg - config file for changing serial ports, file locations, displays, etc   
+samplefiles - simple samples to "test" the app  
 
 
 ## Setup
